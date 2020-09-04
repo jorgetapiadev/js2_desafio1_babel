@@ -10,6 +10,7 @@ var people = [
     document.write('<hr>');
     people.forEach(function (teenager) {
         if (teenager.age > 10 && teenager.age < 20){ 
+        console.log('There are teenagers:', teenager);
         document.write(('<h4>There are teenagers:</h4>', teenager ,teenager.name + ' edad:'+ teenager.age) + "<br/>");
         }   
     })
