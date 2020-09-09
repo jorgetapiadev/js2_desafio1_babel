@@ -6,8 +6,7 @@ var people = [
     {name: 'Elisabeth', age: 16}
     ]
     
-    document.write('<h3>Adolescentes</h3>');
-    document.write('<hr>');
+    document.write('<h2>Nombres</h2>');
     people.forEach(function (teenager) {
         if (teenager.age > 10 && teenager.age < 20){ 
         console.log('There are teenagers:', teenager);
